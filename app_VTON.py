@@ -4,7 +4,7 @@ from PIL import Image
 from src.tryon_pipeline import StableDiffusionXLInpaintPipeline as TryonPipeline
 from src.unet_hacked_garmnet import UNet2DConditionModel as UNet2DConditionModel_ref
 from src.unet_hacked_tryon import UNet2DConditionModel
-from transformers import (
+from transformers import 
     CLIPImageProcessor,
     CLIPVisionModelWithProjection,
 )
